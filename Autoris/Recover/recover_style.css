@@ -28,3 +28,9 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+input[readonly]::placeholder {
+  /* Стили placeholder для современных браузеров */
+  color: #999;
+  font-style: italic;
+}
