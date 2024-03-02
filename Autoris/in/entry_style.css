@@ -1,0 +1,25 @@
+h1 {
+  font-weight: lighter;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: top;
+  width: fit-content;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Чтобы контейнер был по центру даже на экранах с низким разрешением */
+  margin: 0;
+}
+
+#mainBlock {
+  width: fit-content;
+  text-align: center; /* Выравниваем содержимое по центру */
+}
+
+.fields {
+  display: block; /* Размещаем дочерние блоки в столбик */
+  margin: 10px auto; /* Центрируем поля по горизонтали и добавляем отступы */
+  max-width: 300px; /* Опционально: устанавливаем максимальную ширину для полей */
+}
