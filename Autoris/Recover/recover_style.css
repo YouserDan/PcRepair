@@ -16,6 +16,7 @@ body {
 #mainBlock {
   width: fit-content;
   text-align: center; /* Выравниваем содержимое по центру */
+  margin-top: -20vh;
 }
 
 .fields {
